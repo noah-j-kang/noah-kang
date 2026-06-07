@@ -11,15 +11,16 @@ export const resumeData = {
         "Discrete Structures",
         "C++ Programming",
         "Java Programming",
+        "Ordinary Differential Equations",
         "Abstract Linear Algebra",
         "Real Analysis",
       ],
     },
   ],
   skills: {
-    languages: ["Java", "SQL (T-SQL)", "C++", "C", "Python", "TypeScript", "JavaScript (ES6+)", "MIPS"],
-    toolsAndDev: ["Git", "GitHub", "Docker", "CI/CD", "Agile Methodology", "Google Workspace"],
-    dataAndArch: ["Relational DBs (PostgreSQL/SQL Server)", "REST APIs", "JSON", "TensorFlow"],
+    languages: ["Java", "C/C++", "Python", "TypeScript", "JavaScript", "MIPS Assembly"],
+    toolsAndDev: ["Git", "CI/CD", "Google Antigravity"],
+    dataAndArch: ["Relational Databases", "REST APIs"],
   },
   experience: [
     {
@@ -44,21 +45,21 @@ export const resumeData = {
         "Created clear technical specifications and dockerized the application for scalable, consistent deployment across environments.",
       ],
     },
-    {
-      name: "Minimax Chess Engine",
-      technologies: ["C++", "Node.js", "TypeScript", "JSON"],
-      bullets: [
-        "Implemented complex algorithms to optimize execution speed, utilizing multi-threaded logic for intensive computational loads.",
-        "Applied rigorous debugging and testing methodologies to ensure system stability during complex state transitions.",
-      ],
-    },
-    {
-      name: "Conway’s Game of Life Simulation",
-      technologies: ["React", "TypeScript", "Tailwind CSS"],
-      bullets: [
-        "Built a highly scalable simulation engine utilizing Git/GitHub for version control.",
-        "Designed an intuitive UI with React, integrating real-time analytics and variable simulation speeds.",
-      ],
-    },
+    // {
+    //   name: "Minimax Chess Engine",
+    //   technologies: ["C++", "Node.js", "TypeScript", "JSON"],
+    //   bullets: [
+    //     "Implemented complex algorithms to optimize execution speed, utilizing multi-threaded logic for intensive computational loads.",
+    //     "Applied rigorous debugging and testing methodologies to ensure system stability during complex state transitions.",
+    //   ],
+    // },
+    // {
+    //   name: "Conway’s Game of Life Simulation",
+    //   technologies: ["React", "TypeScript", "Tailwind CSS"],
+    //   bullets: [
+    //     "Built a highly scalable simulation engine utilizing Git/GitHub for version control.",
+    //     "Designed an intuitive UI with React, integrating real-time analytics and variable simulation speeds.",
+    //   ],
+    // },
   ],
 };

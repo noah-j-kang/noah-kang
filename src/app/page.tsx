@@ -15,15 +15,13 @@ export default function Home() {
         titleComponent={
           <div className="flex flex-col gap-4 mb-10 min-h-[40vh] justify-center relative z-10">
             <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-foreground">
-              Hello, I&apos;m <Typewriter text={["Noah Kang"]} loop={false} cursorChar="|" />
+              Hi! I&apos;m <Typewriter text={["Noah Kang"]} loop={false} cursorChar="|" />
             </h1>
             <h2 className="text-2xl md:text-3xl font-medium text-[var(--text-muted)]">
-              Mathematics and Computer Science student.
+              Mathematics and Computer Science @ UIUC
             </h2>
             <p className="max-w-2xl mx-auto text-lg md:text-xl text-[var(--text-muted)] leading-relaxed mt-4">
-              I&apos;m currently a James Scholar Honors student at the University of Illinois Urbana-Champaign. 
-              I am passionate about software engineering, scalable systems, and building tools that make a real impact. 
-              Welcome to my digital portfolio!
+              I'm interested in topology and systems engineering. Welcome to my portfolio!
             </p>
           </div>
         }
@@ -54,7 +52,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="mt-12 pt-8 border-t border-[var(--border-color)] text-center text-sm text-[var(--text-muted)]">
-        <p>© {new Date().getFullYear()} Digital Portfolio. Designed and built with Next.js and Tailwind CSS.</p>
+        <p>{new Date().getFullYear()} Noah Kang</p>
       </footer>
     </main>
   );
